@@ -59,7 +59,7 @@ def process_input():
     add_task(file_path, new_task)
 
     # 使用 OpenAI API 獲取任務描述
-    openai.api_key = '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' 
+    openai.api_key = 'apikey' 
     gpt_response = openai.Completion.create(
         engine="gpt-3.5-turbo-instruct",
         prompt=f"任務名稱: {new_task['name']} 任務描述: {new_task['description']}的拆解任務，不要用編號清單呈現每個任務。每個任務有標題以及任務描述，内容完整，不要有打到一半的內容出現。還是會有編號清單，不要有編號。內容敘述可以詳細一點，子任務可以多一點。"
