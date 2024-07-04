@@ -1,0 +1,22 @@
+[
+    { "id": "1", "type": "input", "data": { "label": "Project Kickoff" }, "position": { "x": 250, "y": 0 } },
+    { "id": "2", "data": { "label": "Requirements Gathering" }, "position": { "x": 150, "y": 100 } },
+    { "id": "3", "data": { "label": "Wireframing" }, "position": { "x": 350, "y": 100 } },
+    { "id": "4", "data": { "label": "Design Mockups" }, "position": { "x": 50, "y": 200 } },
+    { "id": "5", "data": { "label": "Content Creation" }, "position": { "x": 250, "y": 200 } },
+    { "id": "6", "data": { "label": "Development" }, "position": { "x": 450, "y": 200 } },
+    { "id": "7", "data": { "label": "Frontend Development" }, "position": { "x": 150, "y": 300 } },
+    { "id": "8", "data": { "label": "Backend Development" }, "position": { "x": 350, "y": 300 } },
+    { "id": "9", "data": { "label": "Testing" }, "position": { "x": 250, "y": 400 } },
+    { "id": "10", "data": { "label": "User Acceptance Testing" }, "position": { "x": 50, "y": 500 } },
+    { "id": "11", "data": { "label": "Bug Fixing" }, "position": { "x": 250, "y": 500 } },
+    { "id": "12", "data": { "label": "Deployment" }, "position": { "x": 450, "y": 500 } },
+    { "id": "13", "data": { "label": "SEO Optimization" }, "position": { "x": 150, "y": 600 } },
+    { "id": "14", "data": { "label": "Performance Tuning" }, "position": { "x": 350, "y": 600 } },
+    { "id": "15", "data": { "label": "Security Audit" }, "position": { "x": 50, "y": 700 } },
+    { "id": "16", "data": { "label": "Final Review" }, "position": { "x": 250, "y": 700 } },
+    { "id": "17", "data": { "label": "Go Live" }, "position": { "x": 450, "y": 700 } },
+    { "id": "18", "data": { "label": "Post-launch Monitoring" }, "position": { "x": 150, "y": 800 } },
+    { "id": "19", "data": { "label": "Client Feedback" }, "position": { "x": 350, "y": 800 } },
+    { "id": "20", "data": { "label": "Project Closure" }, "position": { "x": 250, "y": 900 } }
+]
