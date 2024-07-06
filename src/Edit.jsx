@@ -16,7 +16,6 @@ import edgesData from './edges.json';
 import { useNavigate } from 'react-router-dom';
 import Modal from './detail.jsx';
 
-
 const layout = (nodes, edges) => {
   const dagreGraph = new dagre.graphlib.Graph();
   dagreGraph.setDefaultEdgeLabel(() => ({}));
@@ -137,7 +136,6 @@ const App = () => {
 const FlowWithProvider = () => (
   <ReactFlowProvider>
     <App />
-    {/* <Input/> */}
   </ReactFlowProvider>
 );
 

@@ -1,0 +1,40 @@
+.nav {
+    height: fit-content;
+    width: 100%;
+    background-color: palevioletred;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.leftNav li{
+    display: inline;
+    padding: 10px;
+    float: left;
+    list-style: none;
+}
+
+.rightNav li{
+    margin-right: 30px;
+    padding: 10px;
+    float: right;
+    border: 10px;
+    list-style: none;
+}
+
+.leftNav li:hover, .rightNav li:hover {
+    color: pink;
+  }
+
+.TeamATask{
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 20px;
+    height: 11cm;
+    background-color: rgb(188, 184, 184);
+    width: 20%;
+    border-radius: 0 10px 0 10px;
+}

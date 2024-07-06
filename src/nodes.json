@@ -1,22 +1,242 @@
 [
-    { "id": "1", "type": "input", "data": { "label": "Project Kickoff" }, "position": { "x": 250, "y": 0 } },
-    { "id": "2", "data": { "label": "Requirements Gathering" }, "position": { "x": 150, "y": 100 } },
-    { "id": "3", "data": { "label": "Wireframing" }, "position": { "x": 350, "y": 100 } },
-    { "id": "4", "data": { "label": "Design Mockups" }, "position": { "x": 50, "y": 200 } },
-    { "id": "5", "data": { "label": "Content Creation" }, "position": { "x": 250, "y": 200 } },
-    { "id": "6", "data": { "label": "Development" }, "position": { "x": 450, "y": 200 } },
-    { "id": "7", "data": { "label": "Frontend Development" }, "position": { "x": 150, "y": 300 } },
-    { "id": "8", "data": { "label": "Backend Development" }, "position": { "x": 350, "y": 300 } },
-    { "id": "9", "data": { "label": "Testing" }, "position": { "x": 250, "y": 400 } },
-    { "id": "10", "data": { "label": "User Acceptance Testing" }, "position": { "x": 50, "y": 500 } },
-    { "id": "11", "data": { "label": "Bug Fixing" }, "position": { "x": 250, "y": 500 } },
-    { "id": "12", "data": { "label": "Deployment" }, "position": { "x": 450, "y": 500 } },
-    { "id": "13", "data": { "label": "SEO Optimization" }, "position": { "x": 150, "y": 600 } },
-    { "id": "14", "data": { "label": "Performance Tuning" }, "position": { "x": 350, "y": 600 } },
-    { "id": "15", "data": { "label": "Security Audit" }, "position": { "x": 50, "y": 700 } },
-    { "id": "16", "data": { "label": "Final Review" }, "position": { "x": 250, "y": 700 } },
-    { "id": "17", "data": { "label": "Go Live" }, "position": { "x": 450, "y": 700 } },
-    { "id": "18", "data": { "label": "Post-launch Monitoring" }, "position": { "x": 150, "y": 800 } },
-    { "id": "19", "data": { "label": "Client Feedback" }, "position": { "x": 350, "y": 800 } },
-    { "id": "20", "data": { "label": "Project Closure" }, "position": { "x": 250, "y": 900 } }
+    {
+        "id": "0",
+        "data": {
+            "label": "天氣預報",
+            "description": "透過AI製作一份天氣預報，並且呈現在網頁上，並且要有詳細的分工",
+            "time": "300",
+            "parent": null,
+            "done": 0,
+            "participants": "",
+            "deadline": "08/31"
+        },
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "id": "1",
+        "data": {
+            "label": "設計介面",
+            "description": "設計網頁的介面，包括美化、新增圖片等",
+            "time": "6",
+            "parent": "0",
+            "done": "0",
+            "participants": "",
+            "deadline": "07/18"
+        },
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "id": "2",
+        "data": {
+            "label": "整合資料",
+            "description": "將解析後的天氣資料整合到網頁中，顯示在指定的區域",
+            "time": "2",
+            "parent": "0",
+            "done": "0",
+            "participants": "",
+            "deadline": "07/20"
+        },
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "id": "3",
+        "data": {
+            "label": "測試與修復",
+            "description": "進行網頁測試，確保天氣預報資料的顯示正確並修復可能出現的錯誤",
+            "time": "4",
+            "parent": "0",
+            "done": "0",
+            "participants": "",
+            "deadline": "07/22"
+        },
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "id": "4",
+        "data": {
+            "label": "最終調整",
+            "description": "進行最終的調整，確保網頁的呈現與功能都符合要求",
+            "time": "2",
+            "parent": "0",
+            "done": "0",
+            "participants": "",
+            "deadline": "07/24"
+        },
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "id": "5",
+        "data": {
+            "label": "天氣預報",
+            "description": "透過AI製作一份天氣預報，並且呈現在網頁上，並且要有詳細的分工",
+            "time": "300",
+            "parent": null,
+            "done": 0,
+            "participants": "",
+            "deadline": "08/31"
+        },
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "id": "6",
+        "data": {
+            "label": "設置網頁顯示功能",
+            "description": "使用HTML、CSS和JavaScript等技術，將解析後的天氣預報資料顯示在網頁上",
+            "time": "3",
+            "parent": "5",
+            "done": "0",
+            "participants": "",
+            "deadline": "7/20"
+        },
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "id": "7",
+        "data": {
+            "label": "美化網頁外觀",
+            "description": "使用CSS和JavaScript等技術，美化網頁的外觀，使其更加美觀和易讀",
+            "time": "2",
+            "parent": "5",
+            "done": "0",
+            "participants": "",
+            "deadline": "7/25"
+        },
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "id": "8",
+        "data": {
+            "label": "添加時間提示功能",
+            "description": "使用JavaScript等技術，為網頁添加時間提示功能，使用戶可以輸入指定的日期，查看當天的天氣預報",
+            "time": "2",
+            "parent": "5",
+            "done": "0",
+            "participants": "",
+            "deadline": "7/27"
+        },
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "id": "9",
+        "data": {
+            "label": "優化網頁性能",
+            "description": "使用技術手段，優化網頁的性能，如減少網頁的加載時間、減少網頁的大小等，提高用戶體驗",
+            "time": "4",
+            "parent": "5",
+            "done": "0",
+            "participants": "",
+            "deadline": "7/30"
+        },
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "id": "10",
+        "data": {
+            "label": "測試與除錯",
+            "description": "測試網頁的各項功能是否正常，並對出現的問題進行調試和修復",
+            "time": "3",
+            "parent": "5",
+            "done": "0",
+            "participants": "",
+            "deadline": "08/03"
+        },
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "id": "11",
+        "data": {
+            "label": "部署網頁",
+            "description": "將網頁部署到正式的網路伺服器上，使其可以通過網路訪問",
+            "time": "1",
+            "parent": "5",
+            "done": "0",
+            "participants": "",
+            "deadline": "08/08"
+        },
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "id": "12",
+        "data": {
+            "label": "網頁的監測與更新",
+            "description": "持續監測網頁的運行狀況，並根據用戶的反饋進行功能和內容的更新和優化",
+            "time": "3",
+            "parent": "5",
+            "done": "0",
+            "participants": "",
+            "deadline": "08/20"
+        },
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "id": "13",
+        "data": {
+            "label": "撰寫使用手冊",
+            "description": "撰寫一份使用手冊，介紹網頁的功能和操作方法，並提供常見問題的解答",
+            "time": "4",
+            "parent": "5",
+            "done": "0",
+            "participants": "",
+            "deadline": "08/25"
+        },
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "id": "14",
+        "data": {
+            "label": "網頁的維護與管理",
+            "description": "定期檢查網頁的運行狀況，修復或更新可能出現的問題，保證網頁的穩定運行",
+            "time": "3",
+            "parent": "5",
+            "done": "0",
+            "participants": "",
+            "deadline": "08/29"
+        },
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    }
 ]

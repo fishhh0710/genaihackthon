@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const input = () => {
-  const [name, setName] = useState('');
+  const [label, setLabel] = useState('');
   const [description, setDescription] = useState('');
   const [time, setTime] = useState('');
+  const [deadline, setDeadline] = useState('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -12,12 +13,11 @@ const input = () => {
     try {
       const response = await axios.post('http://localhost:5000/api/add_task', {
         //括號裡是前端給後端的資料
-        name: name,
+        label: label,
         description: description,
-        time: time
+        time: time,
+        deadline: deadline
       });
-
-      console.log('test');
 
       console.log('Response from backend:', response.data);
       // 在這裡處理後端返回的數據或更新前端狀態
@@ -30,13 +30,13 @@ const input = () => {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Name:</label><br />
+        <label htmlFor="label">Name:</label><br />
         <input
           type="text"
-          id="name"
-          name="name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
+          id="label"
+          name="label"
+          value={label}
+          onChange={(e) => setLabel(e.target.value)}
         /><br /><br />
 
         <label htmlFor="description">Description:</label><br />
@@ -55,6 +55,15 @@ const input = () => {
           name="time"
           value={time}
           onChange={(e) => setTime(e.target.value)}
+        /><br /><br />
+
+        <label htmlFor="deadline">Deadline: MM/DD</label><br />
+        <input
+          type="text"
+          id="deadline"
+          name="deadline"
+          value={deadline}
+          onChange={(e) => setDeadline(e.target.value)}
         /><br /><br />
 
         <button type="submit">Submit</button>
