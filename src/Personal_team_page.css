@@ -1,0 +1,70 @@
+.nav {
+    height: fit-content;
+    width: 100%;
+    background-color: palevioletred;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.leftNav li{
+    display: inline;
+    padding: 10px;
+    float: left;
+    list-style: none;
+}
+
+.rightNav li{
+    margin-right: 30px;
+    padding: 10px;
+    float: right;
+    border: 10px;
+    list-style: none;
+}
+
+.leftNav li:hover, .rightNav li:hover {
+    color: pink;
+  }
+
+
+.body {
+    display: flex;
+    flex-direction: row;
+}
+
+.body div{
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 20px;
+    height: 11cm;
+    width: 20%;
+    border-radius: 0 10px 0 10px;
+}
+
+.Todo{
+    background-color: rgb(188, 184, 184);
+}
+
+.inProgress{
+    background-color: rgb(255, 165, 0);
+}
+
+.Done{
+    background-color: rgb(60, 185, 10);
+}
+
+.menuisActive > div{
+    padding: 10px;
+    
+}
+
+.menuisActive a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menuisActive a:hover{
+    color: darkgray;
+}

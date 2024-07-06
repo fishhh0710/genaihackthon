@@ -1,0 +1,102 @@
+.nav {
+    height: fit-content;
+    width: 100%;
+    background-color: palevioletred;
+}
+
+.nav a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.leftNav li{
+    display: inline;
+    padding: 10px;
+    float: left;
+    list-style: none;
+}
+
+.rightNav li{
+    margin-right: 30px;
+    padding: 10px;
+    float: right;
+    border: 10px;
+    list-style: none;
+}
+
+.leftNav li:hover, .rightNav li:hover {
+    color: pink;
+  }
+
+.TeamATask{
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 20px;
+    height: 11cm;
+    background-color: rgb(188, 184, 184);
+    width: 20%;
+    border-radius: 0 10px 0 10px;
+    position: relative; /* Ensure relative positioning for absolute child */
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centers and wraps boxes within the container */
+    margin-top: 10px; /* Adjust spacing as needed */
+  }
+
+.box{
+    border: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(166, 165, 165);
+    width: 5cm;
+    margin: 0.25cm;
+}
+
+#add{
+    position: absolute;
+    top: 15px; /* Adjust vertical position */
+    right: 15px; /* Adjust horizontal position */
+}
+
+.menu{
+    display: none;
+}
+
+.menuisActive {
+    display: block;
+    width: max-content;
+    height: 80vh;
+    position: absolute;
+    top: 73px; /* Adjust this to position the menu correctly below the nav */
+    left: 10px; /* Adjust this to align the menu correctly */
+    background-color: white; /* Background color for the menu */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow effect */
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 1000; /* Ensures the menu is on top of other elements */
+}
+
+.menuisActive > div{
+    padding: 10px;
+}
+
+.menuisActive a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menuisActive a:hover{
+    color: darkgray;
+}
