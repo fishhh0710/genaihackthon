@@ -56,7 +56,7 @@ def process_input():
 
     # 添加新任務
     current_node = str(len(read_json(file_path)))
-    new_task = {"id": str(len(read_json(file_path))), "data": {"label": label, "description": description, "time": time, "parent": None, "done": 0, "participants": '', "deadline": deadline},"position": {"x": 0,"y": 0}}
+    new_task = {"id": str(len(read_json(file_path))), "data": {"label": label, "description": description, "time": time, "parent": None, "done": "0", "participants": '', "deadline": deadline},"position": {"x": 0,"y": 0}}
     add_task(file_path, new_task)
 
     # 使用 OpenAI API 獲取任務描述
