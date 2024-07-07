@@ -53,21 +53,11 @@
     margin-top: 10px; /* Adjust spacing as needed */
   }
 
-.box{
-    border: 2px;
-    border-style: solid;
-    border-color:black;
-    border-radius: 5px;
-    padding: 5px;
-    background-color: rgb(166, 165, 165);
-    width: 5cm;
-    margin: 0.25cm;
-}
-
 #add{
     position: absolute;
     top: 15px; /* Adjust vertical position */
     right: 15px; /* Adjust horizontal position */
+    cursor: pointer;
 }
 
 .menu{
@@ -100,3 +90,80 @@
 .menuisActive a:hover{
     color: darkgray;
 }
+
+.detail{
+    display: none;
+}
+
+.detailisClick {
+    background-color: lightblue;
+    width: 10cm;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .des_block {
+    width: 100%;
+    height: fit-content;
+  }
+  
+  #close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer; /* 可选：让光标变成手形 */
+  }
+  
+  #menu {
+    cursor: pointer;
+  }
+
+  .box-1 {
+    background-color: rgb(145, 133, 133);
+    border: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    width: 5cm;
+    height: 1cm;
+    margin: 0.25cm;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+  }
+
+  .box0{
+    background-color: rgb(255, 165, 0);
+    border: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    width: 5cm;
+    height: 1cm;
+    margin: 0.25cm;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+  }
+
+  .box1{
+    background-color: rgb(60, 185, 10);
+    border: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    width: 5cm;
+    height: 1cm;
+    margin: 0.25cm;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+  }

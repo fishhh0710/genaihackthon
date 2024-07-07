@@ -1,3 +1,62 @@
-{
-    
-}
+[
+    {
+        "id": "0",
+        "data": {
+            "label": "製作天氣預報網頁",
+            "description": "從網路上抓天氣預報的資料到網頁上",
+            "time": "15",
+            "parent": null,
+            "done": "-1",
+            "participants": "",
+            "deadline": "07/25"
+        }
+    },
+    {
+        "id": "1",
+        "data": {
+            "label": "顯示天氣資訊",
+            "description": "在網頁上將解析的天氣資訊顯示出來，可以使用表格、圖表或其他形式進行呈現",
+            "time": "2",
+            "parent": "0",
+            "done": "0",
+            "participants": "",
+            "deadline": "7/20"
+        }
+    },
+    {
+        "id": "2",
+        "data": {
+            "label": "製作視覺效果",
+            "description": "加入CSS樣式，美化網頁的外觀，使其更具吸引力",
+            "time": "3",
+            "parent": "0",
+            "done": "0",
+            "participants": "",
+            "deadline": "7/22"
+        }
+    },
+    {
+        "id": "3",
+        "data": {
+            "label": "測試與修正",
+            "description": "測試網頁的功能，並進行修正，確保網頁可以正常運行",
+            "time": "2",
+            "parent": "0",
+            "done": "0",
+            "participants": "",
+            "deadline": "7/24"
+        }
+    },
+    {
+        "id": "4",
+        "data": {
+            "label": "使用API串接",
+            "description": "申請API key來抓取天氣預報資料",
+            "time": "2",
+            "parent": "1",
+            "done": "1",
+            "participants": "",
+            "deadline": "7/24"
+        }
+    }
+]

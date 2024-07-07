@@ -34,7 +34,7 @@
     flex-direction: row;
 }
 
-.body div{
+.body section{
     margin-left: 30px;
     margin-top: 30px;
     padding: 20px;
@@ -68,3 +68,101 @@
 .menuisActive a:hover{
     color: darkgray;
 }
+
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centers and wraps boxes within the container */
+    margin-top: 10px; /* Adjust spacing as needed */
+  }
+
+.detail{
+    display: none;
+}
+
+.detailisClick {
+    background-color: lightblue;
+    width: 10cm;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .des_block {
+    width: 100%;
+    height: fit-content;
+  }
+  
+  #close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer; /* 可选：让光标变成手形 */
+  }
+  
+  #menu {
+    cursor: pointer;
+  }
+
+  .ToDobox-1 {
+    background-color: rgb(240, 229, 180);
+    border: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    width: 5cm;
+    height: 1cm;
+    margin: 0.25cm;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+  }
+
+  .ToDobox0, .ToDobox1{
+    display: none;
+  }
+
+  .InProgressbox0{
+    background-color: rgb(240, 229, 180);
+    border: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    width: 5cm;
+    height: 1cm;
+    margin: 0.25cm;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+  }
+
+  .InProgressbox-1, .InProgressbox1{
+    display: none;
+  }
+
+  .Donebox1{
+    background-color: rgb(240, 229, 180);
+    border: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    width: 5cm;
+    height: 1cm;
+    margin: 0.25cm;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+  }
+
+  .Donebox-1, .Donebox0 {
+    display: none;
+  }
