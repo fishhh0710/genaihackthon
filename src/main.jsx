@@ -8,6 +8,8 @@ import {
   Link,
 } from "react-router-dom";
 import Input from './Input.jsx'
+import PersonalPage from './Personal_page.jsx';
+import PersonalTeamPage from './Personal_team_page.jsx';
 // import Edit from './edit.jsx'
 
 const router = createBrowserRouter([
@@ -19,10 +21,14 @@ const router = createBrowserRouter([
     path: "/Input",
     element: <Input/>,
   },
-  // {
-  //   path: "/edit",
-  //   element: <Edit/>,
-  // }
+  {
+    path: "/personal",
+    element: <PersonalPage/>,
+  },
+  {
+    path: "/team",
+    element: <PersonalTeamPage/>,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

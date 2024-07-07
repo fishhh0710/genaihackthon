@@ -148,6 +148,15 @@ const App = () => {
   const navigateToEdit = () => {
     navigate('/edit');
   };
+  const navigateToPersonal = () => {
+    navigate('/personal');
+  };
+  const navigateToTeam = () => {
+    navigate('/team');
+  };
+  const handleMenuClick = () => {
+    setIsActive(!isActive)
+  };
 
   const onLayout = useCallback(() => {
     const { nodes: layoutedNodes, edges: layoutedEdges } = layout(nodes, edges);
@@ -161,10 +170,23 @@ const App = () => {
   }, [onLayout]);
 
   return (
-    <div style={{ height: '100vh' }}>
-      <button onClick={onLayout}>Refresh</button>
-      <button onClick={onNodeAdd}>Add Node</button>
-      <button onClick={navigateToInput}>Input</button>
+    <div style={{ height: '84vh' }}>
+      <nav className='nav'>
+        <div className='app-nav'>
+          <ul>
+            <button className='app-button' ><i className="material-icons" onClick={handleMenuClick} id='menu'>menu</i></button>
+            <button className='app-button' onClick={navigateToTeam}>Team Page</button>
+            {/* <button onClick={onLayout}>Refresh</button> */}
+            <button className='app-button' onClick={onNodeAdd}>Add Node</button>
+            <button className='app-button' onClick={navigateToInput}>Input</button>
+          </ul>
+        </div>
+        <div className='rightNav'>
+          <ul>
+            {/* <li><i className="material-icons">notifications</i></li> */}
+          </ul>
+        </div>
+      </nav>
       <ReactFlow
         nodes={nodes}
         edges={edges}

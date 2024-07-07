@@ -10,6 +10,26 @@
     width: 100%;
 }
 
+.app-nav{
+    display: flex;
+    height: 54px;
+}
+
+.app-button{
+    background: none;
+  border: black;
+  color: black; 
+  cursor: pointer;
+  font-size: 14px;
+  /* text-decoration: underline; 底線 */
+  padding: 10px;
+  margin: 0px;
+
+  display: inline;
+    float: left;
+    list-style: none;
+}
+
 .leftNav li{
     display: inline;
     padding: 10px;
@@ -27,9 +47,14 @@
 
 .leftNav li:hover, .rightNav li:hover {
     color: pink;
-  }
+}
+
+.text-button:hover {
+    color: white; /* 滑鼠移過時改變顏色 */
+}
 
 .TeamATask{
+
     margin-left: 30px;
     margin-top: 30px;
     padding: 20px;
