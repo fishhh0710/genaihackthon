@@ -22,7 +22,7 @@
             "description": "設計網頁的介面，包括美化、新增圖片等",
             "time": "6",
             "parent": "0",
-            "done": "0",
+            "done": 1,
             "participants": "",
             "deadline": "07/18"
         },
@@ -38,7 +38,7 @@
             "description": "將解析後的天氣資料整合到網頁中，顯示在指定的區域",
             "time": "2",
             "parent": "0",
-            "done": "0",
+            "done": 1,
             "participants": "",
             "deadline": "07/20"
         },
@@ -54,7 +54,7 @@
             "description": "進行網頁測試，確保天氣預報資料的顯示正確並修復可能出現的錯誤",
             "time": "4",
             "parent": "0",
-            "done": "0",
+            "done": 1,
             "participants": "",
             "deadline": "07/22"
         },
@@ -70,7 +70,7 @@
             "description": "進行最終的調整，確保網頁的呈現與功能都符合要求",
             "time": "2",
             "parent": "0",
-            "done": "0",
+            "done": 1,
             "participants": "",
             "deadline": "07/24"
         },
