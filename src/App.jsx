@@ -161,10 +161,10 @@ const App = () => {
   const onLayout = useCallback(() => {
     const { nodes: layoutedNodes, edges: layoutedEdges } = layout(nodes, edges);
     const updatedNodes = updateNodeStyles(layoutedNodes, layoutedEdges);
-    setNodes(updatedNodes);
+    setNodes(updatedNodes); 
     setEdges(layoutedEdges);
   }, [nodes, edges, setNodes, setEdges]);
-
+  // 123
   useEffect(() => {
     onLayout();
   }, [onLayout]);
